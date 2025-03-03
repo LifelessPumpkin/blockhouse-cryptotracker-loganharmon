@@ -10,14 +10,14 @@ import { getFirestore } from "firebase/firestore";
 // Your web app's Firebase configuration
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
 const firebaseConfig = {
-  apiKey: process.env.NEXT_PUBLIC_API_KEY,
-  authDomain: process.env.NEXT_PUBLIC_AUTH_DOMAIN,
-  projectId: process.env.NEXT_PUBLIC_PROJECT_ID,
-  storageBucket: process.env.NEXT_PUBLIC_STORAGE_BUCKET,
-  messagingSenderId: process.env.NEXT_PUBLIC_MESSAGING_SENDER_ID,
-  appId: process.env.NEXT_PUBLIC_APP_ID,
-  measurementId: process.env.NEXT_PUBLIC_MEASUREMENT_ID
-};
+  apiKey: "AIzaSyDzpTwWqcD7DJiMcPiIERW-Cj-F5txV-VI",
+  authDomain: "blockhouse-cryptotracker.firebaseapp.com",
+  projectId: "blockhouse-cryptotracker",
+  storageBucket: "blockhouse-cryptotracker.firebasestorage.app",
+  messagingSenderId: "381340231481",
+  appId: "1:381340231481:web:e8c3b67c97dad2eebbaae8",
+  measurementId: "G-4H7B9JF5E9"
+}; // I know this isn't good coding practice but I kept gettingn error when using envars
 
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
