@@ -14,3 +14,13 @@ npx create-next-app@latest web-app
 ```sh
 npx create-docusaurus@latest docs classic
 ```
+
+### Install styled componends
+```sh
+npm i styled-components
+```
+
+### Install Firebase
+```sh
+npm install firebase
+```
